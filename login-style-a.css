@@ -1,6 +1,11 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+/*****************************/
+/* End Root Colors to Update */
+/*****************************/
 :root {
+    /* Values to copy into Agency CSS Box From Root Colours */
     --pmg-login-style-a-main-font: "Poppins", sans-serif;
     --pmg-login-style-a-primary-color: #305bb1;
     --pmg-login-style-a-main-background: #3760ba00;
@@ -31,6 +36,10 @@
     --pmg-login-style-a-search-bar-radius: 5px;
     --pmg-login-style-a-radio-button-ring-color: #3dac77;
 }
+
+/*****************************/
+/* End Root Colors to Update */
+/*****************************/
 
 body .hl_login--body {
     font-family: var(--pmg-login-style-a-main-font);
@@ -129,6 +138,7 @@ body .hl_login--body {
     right: 0;
 }
 
+/* FORM */
 .hl_login--body .heading2 {
     font-weight: 600;
     color: var(--pmg-login-style-a-heading-font-color) !important;
@@ -383,6 +393,7 @@ body .hl_login--body {
     }
 }
 
+/*  Fix for 2FA */
 .hl_login--body .container-fluid > div:not(.card) {
     width: 100vw;
 }
@@ -443,6 +454,14 @@ body .hl_login--body {
     background: var(--pmg-login-style-a-radio-button-ring-color) !important;
 }
 
+/************************************************/
+/* New Login - 2FA Updates included *************/
+/************************************************/
+
+/*****************************************************/
+/* Custom PMG Theme Updates for Login Theme Style A */
+/***************************************************/
+
 .hl_login--body
     .card
     button.hl-btn.justify-center.w-full.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600 {
@@ -486,6 +505,8 @@ body .hl_login--body {
     box-shadow: none !important;
 }
 
+/* Update Dec 06, 2021 */
+/* Fix Error Exclamation Point */
 .hl_login .card .fa-exclamation-circle {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
@@ -507,3 +528,7 @@ body .hl_login--body {
     font-weight: 600;
     color: var(--pmg-login-style-a-foot-note-font-color) !important;
 }
+
+/*****************************************************/
+/* Custom PMG Theme Updates for Login Theme Style A */
+/***************************************************/
