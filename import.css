@@ -1,5 +1,5 @@
-@import url(login-style-a.css);
-@import url(dytch-login-style-a.css);
+@import url(https://raw.githubusercontent.com/SesameSnaps/dytch/master/login-style-a.css);
+@import url(https://raw.githubusercontent.com/SesameSnaps/dytch/master/dytch-login-style-a.css);
 
 body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a img,
 body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a img {
