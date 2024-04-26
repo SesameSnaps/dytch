@@ -57,6 +57,8 @@ button.hl-btn.w-full.justify-center.inline-flex.items-center.px-4.py-2.border.bo
     background: var(--pmg-login-style-a-input-bg) !important;
 }
 
+
+/** add new css below this line **/
 input#email, input#password {
     border: 2px solid #3D52D5 !important;
 }
